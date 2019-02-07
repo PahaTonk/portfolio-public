@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Портфолио</title>
+	<link rel="stylesheet" href="css/normalize.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="css/styleMedia.min.css">
+</head>
+<body>
+	<header>
+		<div class="image-wrapper">
+			<img src="image/avatar.jpg" alt="avatar">
+		</div>
+		<h1>Тонкович Павел</h1>
+		<p class="description">Frontend developer based in Melezha street, Minsk</p>
+		<a href="#contacts" class="call-back">Связаться</a>
+	</header>
+	<main>
+		<section class="expectations">
+			<div class="container">
+				<h2>Ожидания от ШРИ</h2>
+				<div class="wrapper-expectations-lists">
+					<div class="container-expectations-lists">
+						<article class="expectations-items expectations-item-1 active">
+							<h3>Опыт</h3>
+							<p class="description">Для меня очень важен опыт, который я смогу получить от профессионалов близкого мне дела.</p>
+							<span class="close"></span>
+						</article>
+						<article class="expectations-items expectations-item-2">
+							<h3>Знакомства</h3>
+							<p class="description">Школа разработки интерфейсов - отличный способ завести новые и полезные знакомства.</p>
+							<span class="close"></span>
+						</article>
+						<article class="expectations-items expectations-item-3">
+							<h3>Возможности</h3>
+							<p class="description">Пройти обучение в ШРИ - это престижно и полезно как для дальнейшего развития в сфере, так и для  мотивации в целом.</p>
+							<span class="close"></span>
+						</article>
+						<article class="expectations-items expectations-item-4">
+							<h3>Самоутверждение</h3>
+							<p class="description">Прохождение всех этапов ШРИ даст необходимое чувство уверенности в собственных силах.</p>
+							<span class="close"></span>
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="projects">
+			<div class="container">
+				<h2>Мои работы</h2>
+				<p class="description">Собраны избранные реально работающие проекты</p>
+				<div id="slider-one" class="slider-wrapper">
+					<h3>Сайт завода по изготовлению металлоконструкций</h3>
+					<a href="http://rsmetal.by/" class="description link">rsmetal.by</a>
+					<div class="images-wrapper">
+						<button type="button" class="nav-slider-dots nav-dot-1 active"></button>
+						<button type="button" class="nav-slider-dots nav-dot-2"></button>
+						<button type="button" class="nav-slider-dots nav-dot-3"></button>
+						<button type="button" class="nav-slider-dots nav-dot-4"></button>
+						<button type="button" class="nav-slider-dots nav-dot-cap"></button>
+						<div class="images-container">
+							<div class="images-items images-item-1 active"><img src="image/metal/metal1.png" alt="RSMetal"></div>
+							<div class="images-items images-item-2"><img src="image/metal/metal2.png" alt="RSMetal"></div>
+							<div class="images-items images-item-3"><img src="image/metal/metal3.png" alt="RSMetal"></div>
+							<div class="images-items images-item-4"><img src="image/metal/metal4.png" alt="RSMetal"></div>
+						</div>
+					</div>
+					<p class="slider-description">Сайт разработан с большего мной, достался мне уже с сверстаной немного шапкой, адаптивен. Все модальные окна и слайдер разработаны мной. Работа слайдера начинается с вызова функции с указанием желательных параметров, слайдер реагирует на поворот экрана на смартфоне и умееет рассчитывать свободное пространство с целью правильного размещения количества слайдов, настроена работа тач. Проект протестирован на последних версиях популярных браузеров.</p>
+				</div>
+				<div id="slider-two" class="slider-wrapper">
+					<h3>Сайт ЖК «Некрасовский»</h3>
+					<a href="https://xn--80aehofcctmsmc.xn--90ais/" class="description link">некрасовский.бел</a>
+					<div class="images-wrapper">
+						<button type="button" class="nav-slider-dots nav-dot-1 active"></button>
+						<button type="button" class="nav-slider-dots nav-dot-2"></button>
+						<button type="button" class="nav-slider-dots nav-dot-3"></button>
+						<button type="button" class="nav-slider-dots nav-dot-4"></button>
+						<button type="button" class="nav-slider-dots nav-dot-cap"></button>
+						<div class="images-container">
+							<div class="images-items images-item-1 active"><img src="image/nekrasovskiy/nekras1.png" alt="Nekrasovskiy"></div>
+							<div class="images-items images-item-2"><img src="image/nekrasovskiy/nekras2.png" alt="Nekrasovskiy"></div>
+							<div class="images-items images-item-3"><img src="image/nekrasovskiy/nekras3.png" alt="Nekrasovskiy"></div>
+							<div class="images-items images-item-4"><img src="image/nekrasovskiy/nekras4.png" alt="Nekrasovskiy"></div>
+						</div>
+					</div>
+					<p class="slider-description">Сайт адаптивен, разработан полностью мной. Есть возможность просмотра интересующей квартиры по нажатию на соответсвующий чертеж. На странице <a href="https://xn--80aehofcctmsmc.xn--90ais/reserved/#to-book">броней</a> видны приобретенные квартиры. Бронирование квартир администратором осуществляется путем изменения значения ключа в объекте, всю остальную работу скрипт выполняет сам. Проект протестирован на последних версиях популярных браузеров.</p>
+				</div>
+				<div id="slider-three" class="slider-wrapper">
+					<h3>Сайт пекарни Пирогова</h3>
+					<a href="http://pirogov.by/" class="description link">pirogov.by</a>
+					<div class="images-wrapper">
+						<button type="button" class="nav-slider-dots nav-dot-1 active"></button>
+						<button type="button" class="nav-slider-dots nav-dot-2"></button>
+						<button type="button" class="nav-slider-dots nav-dot-3"></button>
+						<button type="button" class="nav-slider-dots nav-dot-4"></button>
+						<button type="button" class="nav-slider-dots nav-dot-cap"></button>
+						<div class="images-container">
+							<div class="images-items images-item-1 active"><img src="image/pirogov/pirogov1.PNG" alt="Pirogov"></div>
+							<div class="images-items images-item-2"><img src="image/pirogov/pirogov2.PNG" alt="Pirogov"></div>
+							<div class="images-items images-item-3"><img src="image/pirogov/pirogov3.PNG" alt="Pirogov"></div>
+							<div class="images-items images-item-4"><img src="image/pirogov/pirogov4.PNG" alt="Pirogov"></div>
+						</div>
+					</div>
+					<p class="slider-description">Интернет-магазин онлайн-продажи пирогов. Разработан на cms OpenCart. Верстка, адаптивность, разработка функционала произведены мной. В корзине на input Адреса привязано API JS от Яндекс, для дополнения адресов. Проект протестирован на последних версиях популярных браузеров.</p>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer id="contacts">
+		<div class="container">
+			<h2>Контактная информация</h2>
+			<div class="social-link images-wrapper">
+				<a class="telegram" href="tg://resolve?domain=pavtonk"><img src="image/tg-icon.png" alt="telegram-ico"></a>
+			</div>
+			<p class="description">Я открыт для новых проектов. Вы можете прислать мне для оценки примерное техническое задание или просто описание проекта своими словами.</p>
+			<form name="contact-form" id="contact-form" action="mail.php" method="POST">
+				<input id="contact-form-name" name="name" type="text" placeholder="Как вас зовут?" required>
+				<input id="contact-form-email" name="email" type="email" placeholder="Почтовый ящик" required>
+				<textarea id="contact-form-message" name="contact-form-message" placeholder="Сообщение"></textarea>
+				<label>
+					<span class="form-file">Прикрепит ТЗ</span>
+					<input id="contact-form-file" type="file" class="hidden-input" name="contact-form-file">
+				</label>
+				<input id="contact-form-submit" type="submit">
+			</form>
+		</div>
+	</footer>
+</body>
+</html>
